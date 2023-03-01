@@ -60,6 +60,13 @@ function SkillSet() {
       '研究室用のソフトウェア（非研究）の開発のため'
     ),
     createLibraryData(
+      'React',
+      'フロントエンド',
+      'TypeScript',
+      '★☆☆',
+      'このページを作成するため'
+    ),
+    createLibraryData(
       'TypeORM',
       'O/Rマッパー',
       'JavaScript/TypeScript',
