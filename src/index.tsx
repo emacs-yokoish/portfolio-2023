@@ -5,6 +5,7 @@ import reportWebVitals from './reportWebVitals';
 
 import Header from './components/Header';
 import About from './components/About';
+import SkillSet from './components/SkillSet';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -13,6 +14,7 @@ root.render(
   <React.StrictMode>
     <Header />
     <About />
+    <SkillSet />
   </React.StrictMode>
 );
 
