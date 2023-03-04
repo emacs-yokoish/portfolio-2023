@@ -14,11 +14,21 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <Header />
-    <Profile />
-    <About />
-    <SkillSet />
-    <Works />
+    <section>
+      <Header />
+    </section>
+    <section id="profile">
+      <Profile />
+    </section>
+    <section id="about">
+      <About />
+    </section>
+    <section id="skill_set">
+      <SkillSet />
+    </section>
+    <section id="works">
+      <Works />
+    </section>
   </React.StrictMode>
 );
 
