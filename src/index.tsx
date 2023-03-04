@@ -7,6 +7,7 @@ import Header from './components/Header';
 import About from './components/About';
 import SkillSet from './components/SkillSet';
 import Works from './components/Works';
+import Profile from './components/Profile';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -14,6 +15,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <Header />
+    <Profile />
     <About />
     <SkillSet />
     <Works />

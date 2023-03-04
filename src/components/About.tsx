@@ -10,8 +10,6 @@ function About() {
       </Box>
       <Box display="flex" justifyContent="center" p={1}>
         <Typography variant="body1" align="left">
-          明治大学大学院 理工学研究科 ソフトウェア工学研究室所属
-          <br />
           小学校3年時に親に勧められ、プログラミング教室でプログラミングに触れ始める。
           <br />
           教材のLEGO MINDSTORMSを使用してロボットを作成する中で、ハードウェアよりもソフトウェアが好きだと自覚し、プログラミングに注力し始める。
