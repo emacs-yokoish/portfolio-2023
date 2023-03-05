@@ -26,13 +26,16 @@ function Header() {
     },
   ];
   return (
-    <AppBar position="static">
-      <Toolbar>
-        <AccountCircle />
-        <Typography> Shota Yokoi </Typography>
-        <NavBar items={items} />
-      </Toolbar>
-    </AppBar>
+    <>
+      <AppBar position="fixed">
+        <Toolbar>
+          <AccountCircle />
+          <Typography> Shota Yokoi </Typography>
+          <NavBar items={items} />
+        </Toolbar>
+      </AppBar>
+      <Toolbar />
+    </>
   );
 }
 export default Header;

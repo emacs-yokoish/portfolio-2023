@@ -16,6 +16,7 @@ function NavBar({ items }: NavBarItems) {
       {items.map((item) => (
         <AnchorLink
           key={item.id}
+          offset='50'
           href={'#' + item.id}
           style={{
             textDecoration: 'none',
