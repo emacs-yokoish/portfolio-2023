@@ -10,6 +10,8 @@ import Link from '@mui/material/Link';
 
 import GearImage from '../static/images/gear.png';
 import InterpreterImage from '../static/images/interpreter.png';
+import ReservationSystemImage from '../static/images/reservation-system.png';
+import DiscordBotImage from '../static/images/discord-bot3.png';
 
 function Works() {
   return (
@@ -76,6 +78,59 @@ function Works() {
           </Grid>
           <Grid item xs>
             <CardMedia component="img" image={InterpreterImage} />
+          </Grid>
+        </Grid>
+      </Card>
+      <Card>
+        <Grid container>
+          <Grid item xs>
+            <CardMedia component="img" image={ReservationSystemImage} />
+          </Grid>
+          <Grid item xs>
+            <CardContent>
+              <Typography variant="h6" align="center">
+                研究室面談予約システム
+              </Typography>
+              <Typography variant="body1" align="left">
+                研究室の配属の際の面談を予約するためのシステム。
+                <br />
+                研究室のメンバー4人で開発を行った。
+                <br />
+                GitLabを用いて、issueを建ててそれに対しマージリクエスト（プルリクエスト）を発行して開発を進めた。
+                <br />
+                担当範囲としては主にバックエンドのAPI作成を行った他、フロントを含め他の開発者のコードレビューを行った。
+              </Typography>
+              <CardContent>
+                <Typography variant="h6">使用技術</Typography>
+                <Typography color="textSecondary">
+                  TypeScript / NestJS
+                </Typography>
+              </CardContent>
+            </CardContent>
+          </Grid>
+        </Grid>
+      </Card>
+      <Card>
+        <Grid container>
+          <Grid item xs>
+            <CardContent>
+              <Typography variant="h6" align="center">
+                YouTubeのURLを送ると
+                <br />
+                カレンダーに登録してくれるDiscordBot
+              </Typography>
+              <Typography variant="body1" align="left">
+                YouTubeのライブ配信のURLをDiscordに送信することで、Googleカレンダーに自動で登録を行ってくれるDiscordBot。
+                3つのサービスのAPIをそれぞれ用いて開発を行った。
+              </Typography>
+              <CardContent>
+                <Typography variant="h6">使用技術</Typography>
+                <Typography color="textSecondary">JavaScript</Typography>
+              </CardContent>
+            </CardContent>
+          </Grid>
+          <Grid item xs>
+            <CardMedia component="img" image={DiscordBotImage} />
           </Grid>
         </Grid>
       </Card>
